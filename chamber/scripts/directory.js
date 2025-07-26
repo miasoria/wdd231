@@ -1,6 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
-  alert("JS cargado correctamente ✅");
-
   document.getElementById("currentyear").textContent = new Date().getFullYear();
   document.getElementById("lastModified").textContent = document.lastModified;
 
