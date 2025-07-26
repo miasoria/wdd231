@@ -26,7 +26,7 @@ header {
     background-color: var(--primary-color);
     padding: 1rem;
     color: white;
-    font-family: ;
+    font-family: 'Anton', sans-serif;
     font-size: 22px;
 }
 
@@ -67,7 +67,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    padding: 0.5 0.75rem;
+    padding: 0.5rem 0.75rem;
     border-radius: 5px;
     font-weight: bold;
     text-align: center;
