@@ -1,0 +1,135 @@
+:root{
+    --primary-color: #002D62;
+    --secondary-color: #4CAF50;
+    --background-color: #F5F5F5;
+    --text-color: #333333;
+    --font-family: 'EB Garamond', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family:'EB Garamond', serif;
+    line-height: 1.6;
+    padding: 0 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+    font-family: ;
+    font-size: 22px;
+}
+
+#navMenu {
+  display: none;
+}
+
+#navMenu.open {
+  display: block;
+}
+
+#menuButton {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: black;
+  cursor: pointer;
+  display: block;
+}
+
+h1 {
+    font-family:'Anton', sans-serif; 
+}
+
+nav ul {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    gap: 0.5rem;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5 0.75rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+a:hover{
+    background-color: var(--secondary-color);
+}
+
+#menuButton {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: black;
+  cursor: pointer;
+  display: block;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+main figure {
+    text-align: center;
+}
+
+main img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px black;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+footer img{
+    height: 80px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.footer-left,
+.footer-right {
+  max-width: 300px;
+}
+
+.footer-center a img {
+  height: 40px;
+  margin: 0 0.5rem;
+}

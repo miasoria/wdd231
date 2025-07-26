@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) {
+
+    #navMenu {
+    display: block !important;
+  }
+
+  #menuButton {
+    display: none;
+  }
+
+  nav ul {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+    background-color: transparent;
+    width: auto;
+    padding: 0;
+  }
+
+  main .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .cards.grid {
+    display: grid;
+    grid-template-columns: grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.cards.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cards section {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background: #fff;
+}
+
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer-center {
+    text-align: center;
+  }
+}

@@ -1,0 +1,49 @@
+:root {
+  --color-1: #0062D62;
+  --color-2: #4CAF50;
+  --color-3: #F5F5F5;
+  --color-4: #333333;
+
+  --font-heading: 'Anton', sans-serif;
+  --font-body: 'EB Garamond', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-body);
+    background-color: var(--color-3);
+    padding: 1rem;
+    line-height: 1.6;
+}
+
+h1 h2{
+    font-family: var(--font-heading);
+}
+
+header{
+    background-color: var(--color-1);
+}
+
+nav{
+    background-color: var(--color-4);
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    
+}

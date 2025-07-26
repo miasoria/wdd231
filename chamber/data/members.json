@@ -1,0 +1,70 @@
+{
+  "members": [
+    {
+      "name": "Aïcha Touré",
+      "role": "President",
+      "company": "Timbuktu Textiles Co.",
+      "address": "123 Desert Ave, Timbuktu",
+      "phone": "+223 123 456 789",
+      "website": "https://timbuktutextiles.example.com",
+      "image": "profile.webp",
+      "membershipLevel": 3,
+      "description": "Leader in traditional Malian textile production."
+    },
+    {
+      "name": "Salif Keita",
+      "role": "Owner",
+      "company": "Le Marché Vert (Eco Market)",
+      "address": "456 Green Rd, Bamako",
+      "phone": "+223 987 654 321",
+      "website": "https://lemarchevert.example.com",
+      "image": "profile.webp",
+      "membershipLevel": 2,
+      "description": "Local market offering eco-friendly products."
+    },
+    {
+      "name": "Amara Doumbia",
+      "role": "Founder",
+      "company": "Café du Désert",
+      "address": "789 Oasis St, Gao",
+      "phone": "+223 321 654 987",
+      "website": "https://cafedudesert.example.com",
+      "image": "profile.webp",
+      "membershipLevel": 1,
+      "description": "Popular café known for its desert-inspired ambiance."
+    },
+    {
+      "name": "Oumar Bamba",
+      "role": "Accountant",
+      "company": "Bamba & Partners",
+      "address": "234 Finance Blvd, Kayes",
+      "phone": "+223 111 222 333",
+      "website": "https://bambapartners.example.com",
+      "image": "profile.webp",
+      "membershipLevel": 2,
+      "description": "Trusted financial advisors and accountants."
+    },
+    {
+      "name": "Hawa Sissoko",
+      "role": "Fashion Designer",
+      "company": "Sissoko Styles",
+      "address": "678 Style Ave, Mopti",
+      "phone": "+223 555 666 777",
+      "website": "https://sissokostyles.example.com",
+      "image": "profile.webp",
+      "membershipLevel": 3,
+      "description": "Modern fashion with traditional Malian influences."
+    },
+    {
+      "name": "Issa Maïga",
+      "role": "Manager",
+      "company": "Hotel Sahel Horizons",
+      "address": "890 Dunes Rd, Timbuktu",
+      "phone": "+223 444 333 222",
+      "website": "https://sahelhorizons.example.com",
+      "image": "profile.webp",
+      "membershipLevel": 1,
+      "description": "Hotel with stunning views of the Sahel region."
+    }
+  ]
+}
