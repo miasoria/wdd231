@@ -25,7 +25,7 @@ header {
     background-color: var(--primary-color);
     padding: 1rem;
     color: white;
-    font-family: var(--font-family)
+    font-family: var(--font-family);
     font-size: 22px;
 }
 
