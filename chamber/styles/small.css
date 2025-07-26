@@ -14,7 +14,7 @@
 
 body {
     background-color: var(--background-color);
-    font-family:'EB Garamond', serif;
+    font-family:'EB Gara
     line-height: 1.6;
     padding: 0 1rem;
 }
@@ -26,7 +26,7 @@ header {
     background-color: var(--primary-color);
     padding: 1rem;
     color: white;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font-family)
     font-size: 22px;
 }
 
