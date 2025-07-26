@@ -30,6 +30,11 @@ header {
     font-size: 22px;
 }
 
+header img {
+    height:50px;
+    width:auto;
+}
+
 #navMenu {
   display: none;
 }

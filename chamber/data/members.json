@@ -7,7 +7,7 @@
       "address": "123 Desert Ave, Timbuktu",
       "phone": "+223 123 456 789",
       "website": "https://timbuktutextiles.example.com",
-      "image": "profile.webp",
+      "image": "person4.jpg",
       "membershipLevel": 3,
       "description": "Leader in traditional Malian textile production."
     },
@@ -18,7 +18,7 @@
       "address": "456 Green Rd, Bamako",
       "phone": "+223 987 654 321",
       "website": "https://lemarchevert.example.com",
-      "image": "profile.webp",
+      "image": "person1.jpg",
       "membershipLevel": 2,
       "description": "Local market offering eco-friendly products."
     },
@@ -29,7 +29,7 @@
       "address": "789 Oasis St, Gao",
       "phone": "+223 321 654 987",
       "website": "https://cafedudesert.example.com",
-      "image": "profile.webp",
+      "image": "person5.jpg",
       "membershipLevel": 1,
       "description": "Popular café known for its desert-inspired ambiance."
     },
@@ -40,7 +40,7 @@
       "address": "234 Finance Blvd, Kayes",
       "phone": "+223 111 222 333",
       "website": "https://bambapartners.example.com",
-      "image": "profile.webp",
+      "image": "person2.jpg",
       "membershipLevel": 2,
       "description": "Trusted financial advisors and accountants."
     },
@@ -51,7 +51,7 @@
       "address": "678 Style Ave, Mopti",
       "phone": "+223 555 666 777",
       "website": "https://sissokostyles.example.com",
-      "image": "profile.webp",
+      "image": "person6.webp",
       "membershipLevel": 3,
       "description": "Modern fashion with traditional Malian influences."
     },
@@ -62,7 +62,7 @@
       "address": "890 Dunes Rd, Timbuktu",
       "phone": "+223 444 333 222",
       "website": "https://sahelhorizons.example.com",
-      "image": "profile.webp",
+      "image": "person3.jpg",
       "membershipLevel": 1,
       "description": "Hotel with stunning views of the Sahel region."
     }
