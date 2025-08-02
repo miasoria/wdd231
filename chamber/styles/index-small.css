@@ -12,12 +12,6 @@
   box-sizing: border-box;
 }
 
-body {
-    background-color: var(--background-color);
-    line-height: 1.6;
-    padding: 0 1rem;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -51,10 +45,6 @@ header img {
   display: block;
 }
 
-h1 {
-    font-family:'Anton', sans-serif; 
-}
-
 nav ul {
     display: none;
     flex-direction: column;
@@ -86,22 +76,105 @@ a:hover{
   display: block;
 }
 
-.cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    padding: 1rem;
+#navMenu {
+  display: none;
+  flex-direction: column;
 }
 
-main figure {
-    text-align: center;
+#navMenu.open {
+  display: flex;
 }
 
-main img {
-    width: 80%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 20px black;
+.hero {
+    position: relative;
+    height: 40vh;
+    background-image: url(../images/timbuktu.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-button {
+    padding: 1rem 2rem;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    transition: var(--background-color) 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: rgb(0, 126, 84);
+}
+
+.weather-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 900px;
+}
+
+.events {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.current-weather,
+.forecast {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.weather-icon {
+  width: 50px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+#forecast-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+#forecast-list li {
+  margin-bottom: 0.5rem;
+}
+
+
+h3 {
+  background-color: var(--secondary-color);
+}
+
+.business-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.business-card {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.business-card img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
 }
 
 footer {

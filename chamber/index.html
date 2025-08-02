@@ -10,13 +10,13 @@
     <meta property="og:image" content="https://miasoria.github.io/wdd231/chamber/images/og-image.png">
     <meta property="og:url" content="https://miasoria.github.io/wdd231/chamber/directory.html">
     <meta property="og:locale" content="en_US">
-    <title>Directory Chamber of Commerce</title>
+    <title>Home Page Chamber of Commerce</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/large.css">
-    <script src="scripts/directory.js" defer></script>
+    <link rel="stylesheet" href="styles/index-small.css">
+    <link rel="stylesheet" href="styles/index-large.css">
+    <script src="scripts/index.js" defer></script>
     <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
@@ -34,12 +34,35 @@
         </nav>
     </header>
     <main>
-        <h1>Members</h1>
-        <div class="view-buttons">
-        <button id="grid">Grid View</button>
-        <button id="list">List View</button>
+        <div class="hero">
+            <a href="#" class="hero-button">Keynote Tickets</a>
         </div>
-        <div class="cards grid"></div>
+        <h1>Home</h1>
+        <div class="sections">
+        <section class="events">
+            <h3>Events</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut odit nemo possimus magni alias totam iste explicabo debitis quidem tenetur? Quo dolorum aspernatur odio vitae consectetur animi rem eligendi possimus!</p>
+        </section>
+        <section class="weather-section">
+          <div class="current-weather">
+            <h3>Current Weather</h3>
+                        <img src="images/weather-icon.svg" alt="Weather Icon" class="weather-icon">
+            <p id="current-temp"></p>
+            <p id="weather-desc"></p>
+            <p id="high-low"></p>
+            <p id="humidity"></p>
+            <p id="sunrise-sunset"></p>
+          </div>
+        </section>
+        <section>
+          <div class="forecast">
+            <h3>Weather Forecast</h3>
+            <ul id="forecast-list"></ul>
+          </div>
+        </section>
+        </div>
+        <section class="business-section" id="members-container">
+        </section>
     </main>
     <footer>
   <div class="footer-content">
