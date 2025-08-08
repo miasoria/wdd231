@@ -38,17 +38,17 @@
       <h1>Membership Application Form</h1>
       <div class="form-and-cards">
         <form method="get" action="thankyou.html">
-          <label for="given-name">First name</label>
+          <label for="last-name">First name</label>
           <input type="text" name="first-name" id="first-name" autocomplete="given-name" title="Enter your first name" required>
           <br>
-          <label for="family-name">Last name</label>
+          <label for="last-name">Last name</label>
           <input type="text" name="last-name" id="last-name" autocomplete="family-name" title="Enter your last name" required>
           <br>
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="example@gmail.com" autocomplete="email" required>
+          <input type="email" name="email" id="email" placeholder="example@gmail.com" autocomplete="email" title="Enter your email" required>
           <br>
           <label for="tel">Mobile phone number</label>
-          <input type="tel" name="phone" id="phone" autocomplete="tel" required>
+          <input type="tel" name="phone" id="tel" autocomplete="tel" title="Enter your phone number" required>
           <br>
           <label for="organization">Organization's name</label>
           <input type="text" name="organization" id="organization" autocomplete="organization" title="Enter your organization name" required>
@@ -65,10 +65,10 @@
           <label for="org-description">Organization's description</label>
           <textarea name="organization-description" id="org-description" title="Enter a brief description of your organization or company" required></textarea>
           <br>
-          <label for="hidden"></label>
+          <label for="timestamp"></label>
           <input type="hidden" name="timestamp" id="timestamp">
           <br>
-          <label for="submit"></label>
+          <label for="submit" id="submit"></label>
           <button type="submit">Submit</button>
         </form>
 
