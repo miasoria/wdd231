@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px) {
+
+  header img {
+    height: 50px;
+    width: auto;
+  }
+
+    #navMenu {
+    display: block !important;
+  }
+
+  #menuButton {
+    display: none;
+  }
+
+  nav ul {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+    background-color: transparent;
+    width: auto;
+    padding: 0;
+  }
+
+  .form-and-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 5rem;
+  padding-left: 3rem;
+  padding-right: 1rem;
+  }
+
+form {
+  flex: 1;
+  max-width: 550px;
+  }
+
+#membership-cards {
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  }
+}
