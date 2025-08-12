@@ -45,4 +45,15 @@ form {
   grid-template-columns: 1fr;
   gap: 1rem;
   }
+
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer-center {
+    text-align: center;
+  }
 }

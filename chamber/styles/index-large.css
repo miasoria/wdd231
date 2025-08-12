@@ -59,4 +59,15 @@
   justify-content: space-between;
   max-width: 1200px;
 }
+
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer-center {
+    text-align: center;
+  }
 }

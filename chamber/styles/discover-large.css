@@ -1,0 +1,67 @@
+@media screen and (min-width: 1025px) {
+  header img {
+    height: 50px;
+    width: auto;
+  }
+
+    #navMenu {
+    display: block !important;
+  }
+
+  #menuButton {
+    display: none;
+  }
+
+  nav ul {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+    background-color: transparent;
+    width: auto;
+    padding: 0;
+  }
+
+  .card {
+    min-height: 220px;
+    padding: 1rem;
+  }
+
+  /* H2 arriba, luego body con 2 columnas */
+  .card h2 { margin-bottom: 0.5rem; }
+
+  .card .card-body {
+    display: grid;
+    grid-template-columns: 320px 1fr; /* ancho de la columna de la imagen */
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .card figure { margin: 0; height: auto; }
+  .card img { width: 100%; height: 160px; object-fit: cover; border-radius: 6px; }
+
+  /* texto a la derecha; forzar altura del botón debajo de todo */
+  .card .card-text { display: flex; flex-direction: column; gap: .5rem; }
+
+  /* el botón siempre en la parte inferior y ocupando todo el ancho de la card */
+  .card .btn {
+    margin-top: 1rem;
+    align-self: stretch; /* hace que ocupe todo el ancho dentro de la card */
+    border-radius: 30px;
+    padding: .65rem 1rem;
+  }
+
+  /* opcional: estilo visual más "tipo tarjeta" */
+  .card { background: #fff; border: 1px solid #ddd; }
+}
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer-center {
+    text-align: center;
+  }
+}

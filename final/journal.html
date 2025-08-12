@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Journal Spiritual | Home Page">
+    <meta name="author" content="Mia Soria">
+    <title>My Spiritual Journal | Personal Project</title>
+    <link rel="stylesheet" href="styles/journal.css">
+    <script src="scripts/index.js" defer></script>
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="My Journal Page Logo">
+        <span>My Journal</span>
+        <button id="menuButton" aria-label="Toggle Menu">☰</button>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="journal.html">Journal</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        </header>
+        
+        <main class="page-container">
+    <section class="two-column">
+      <div class="prompts">
+        <h2>Writing Prompts</h2>
+        <ul>
+          <li>What blessings did I notice today?</li>
+          <li>What did I learn from my scripture study?</li>
+          <li>How did I feel the Spirit’s guidance?</li>
+        </ul>
+      </div>
+      <div class="journal-entry">
+        <h1>Sample Journal Entry</h1>
+        <form id="journalForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="mood">How are you feeling today?</label>
+          <select id="mood" name="mood" required>
+            <option value="">Select one</option>
+            <option value="Grateful">Grateful</option>
+            <option value="Hopeful">Hopeful</option>
+            <option value="Anxious">Anxious</option>
+            <option value="Happy">Happy</option>
+            <option value="Tired">Tired</option>
+          </select>
+
+          <label for="entry">Today's Reflection:</label>
+          <textarea id="entry" name="entry" rows="6" required></textarea>
+
+          <button type="submit">Save Entry</button>
+        </form>
+        <div id="saveMessage"></div>
+      </div>
+    </section>
+    <section class="quote">
+      <h2>Quote</h2>
+      <blockquote>
+        “Faith is taking the first step even when you don’t see the whole staircase.”  
+        — Martin Luther King Jr.
+      </blockquote>
+    </section>
+        </main>
+
+        <footer>
+            <p>© <span id="currentyear"></span> Spiritual Journey | Mia Soria</p>
+        </footer>
+</body>
+</html>

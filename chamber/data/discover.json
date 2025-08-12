@@ -1,0 +1,58 @@
+[
+    {
+      "name": "Djinguereber Mosque",
+      "address": "Askia Mohamed Boulevard, Timbuktu, Mali",
+      "description": "Built in 1327 by Mansa Musa, this is the oldest of Timbuktu’s three famous mud-brick mosques that formed the University of Timbuktu. UNESCO World Heritage site.",
+      "image_url": "images/place1.webp",
+      "alt": "Djinguereber Mosque"
+    },
+    {
+      "name": "Sankoré Mosque (Madrasah)",
+      "address": "Timbuktu, Mali",
+      "description": "14th–15th century center of Islamic learning, part of the University of Timbuktu; later restored to Kaaba-like dimensions by Imam al-Aqib. UNESCO World Heritage site.",
+      "image_url": "images/place2.webp",
+      "alt": "Sankoré Mosque (Madrasah) photo"
+    },
+    {
+      "name": "Sidi Yahya Mosque",
+      "address": "Timbuktu, Tombouctou Region, Mali",
+      "description": "Completed in 1440 and named for its first imam. Part of the University of Timbuktu; heavily damaged in 2012 but restored by UNESCO.",
+      "image_url": "images/place3.webp",
+      "alt": "Sidi Yahya Mosque photo"
+    },
+    {
+      "name": "Ahmed Baba Institute (IHERI-AB)",
+      "address": "Timbuktu, Mali",
+      "description": "Founded 1973 and rebuilt in 2009, this modern archive protects over 20,000 ancient manuscripts using climate-controlled preservation.",
+      "image_url": "images/place4.webp",
+      "alt": "Ahmed Baba Institute (IHERI-AB) photo"
+    },
+    {
+      "name": "Mamma Haidara Commemorative Library",
+      "address": "Old town, Timbuktu, Mali (private residence)",
+      "description": "Private villa housing ~22,000 manuscripts, preserved by the Haidara family across generations.",
+      "image_url": "images/place5.webp",
+      "alt": "Mamma Haidara Commemorative Library photo"
+    },
+    {
+      "name": "Fundo Kati (Kati Manuscript Library)",
+      "address": "Timbuktu, Mali (private)",
+      "description": "Private family library preserving Songhai chronicles like Tarikh al-Fettash, part of Timbuktu’s rich scholarly heritage.",
+      "image_url": "images/place6.webp",
+      "alt": "Fundo Kati (Kati Manuscript Library) photo"
+    },
+    {
+      "name": "Old-Town Historic Center",
+      "address": "Historic center of Timbuktu, Mali",
+      "description": "Wander sun-baked, sand-filled streets of adobe homes and courtyards—a living, tactile history experience.",
+      "image_url": "images/place7.webp",
+      "alt": "Old-Town Historic Center photo"
+    },
+    {
+      "name": "Sahara Camel Ride / Local Festival Experience",
+      "address": "Sahara Desert or festival site near Timbuktu, e.g., Essakane (~70 km away)",
+      "description": "Saddle up for sunset camel rides on the dunes or immerse yourself in Tuareg-led cultural festivals—an adventure into desert magic.",
+      "image_url": "images/place8.webp",
+      "alt": "Sahara Camel Ride / Local Festival Experience photo"
+    }
+]
