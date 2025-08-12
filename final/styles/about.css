@@ -95,6 +95,22 @@ section {
   margin-bottom: 2.5rem;
 }
 
+  .quote blockquote {
+  background-color: var(--secondary-color);
+  border-left: 4px solid var(--color-accent);
+  max-width: 50rem;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  font-family: 'Lora', serif;
+  margin: 1rem 0;
+}
+
+.quote blockquote p {
+  margin: 0 0 0.5rem;
+  color: var(--color-accent);
+  font-size: 1.1rem;
+}
+
 @media (min-width: 768px) {
 
   #navMenu {
@@ -127,22 +143,6 @@ section {
   .how-to-use h2 {
     font-size: 1.3rem;
   }
-
-  .quote blockquote {
-  background-color: var(--secondary-color);
-  border-left: 4px solid var(--color-accent);
-  max-width: 50rem;
-  padding: 1rem 1.2rem;
-  border-radius: 6px;
-  font-family: 'Lora', serif;
-  margin: 1rem 0;
-}
-
-.quote blockquote p {
-  margin: 0 0 0.5rem;
-  color: var(--color-accent);
-  font-size: 1.1rem;
-}
 }
 
 @media (min-width: 600px) {
@@ -169,7 +169,6 @@ section {
   }
 }
 
-/* ===== Desktop (>=1024px) ===== */
 @media (min-width: 1024px) {
   header {
     justify-content: space-between;
@@ -214,3 +213,37 @@ footer {
   font-size: 0.9rem;
   font-family: 'Open Sans', sans-serif;
 }
+
+
+.testimonials-grid {
+  display: grid;
+  gap: .9rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 1rem;
+}
+
+.testi-card {
+  display: grid;
+  grid-template-columns: 100px 1fr auto;
+  gap: .6rem;
+  align-items: center;
+  background: #fff;
+  padding: .6rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.thumb-wrap { width: 100px; height: 70px; overflow: hidden; border-radius: 8px; }
+.thumb-wrap img { width: 100%; height: 100%; object-fit: cover; display:block; }
+
+.testi-meta { display:flex; flex-direction: column; gap: .25rem; }
+.testi-name { font-weight:700; }
+.testi-date { color: #666; font-size: .85rem; }
+
+.btn-read { background: var(--secondary-color); color: white; border: none; padding: .45rem .6rem; border-radius: 8px; cursor: pointer; }
+.btn-read:focus { outline: 3px solid #c8e1ff; outline-offset: 2px; }
+
+dialog#testi-dialog { border:none; border-radius: 10px; padding: 1rem; max-width: 640px; width: calc(100% - 2rem); }
+.dialog-inner { position: relative; }
+.dialog-close { position: absolute; right: .5rem; top: .5rem; background: transparent; border: none; font-size: 1.1rem; cursor: pointer; }
+.dialog-date { color:#666; font-size:.9rem; margin-top:.5rem; text-align:right; }

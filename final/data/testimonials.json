@@ -1,0 +1,121 @@
+[
+    {
+        "id": 1, 
+        "name": "María López", 
+        "date": "2025-07-02", 
+        "text": "The journal helped me organize my thoughts each night; writing gave me peace.",
+        "photo_url": "https://picsum.photos/seed/testi1/600/400"
+    },
+
+    {
+        "id": 2, 
+        "name": "Juan Pérez", 
+        "date": "2025-06-18", 
+        "text": "Writing down three things I'm grateful for changed my daily life.",
+        "photo_url": "https://picsum.photos/seed/testi2/600/400"
+    },
+
+    {
+        "id": 3, 
+        "name": "Sofía Martínez", 
+        "date": "2025-05-21", 
+        "text": "Seeing what I wrote revealed patterns and helped me break bad habits.",
+        "photo_url": "https://picsum.photos/seed/testi3/600/400"
+    },
+
+    {
+        "id": 4, 
+        "name": "Diego Ramírez", 
+        "date": "2025-04-12", 
+        "text": "Being far from home, writing connected me to what matters and calmed me.",
+        "photo_url": "https://picsum.photos/seed/testi4/600/400"
+    },
+
+    {
+        "id": 5, 
+        "name": "Lucía Gómez", 
+        "date": "2025-03-03", 
+        "text": "My gratitude routine transformed my mornings: more energy and positivity.",
+        "photo_url": "https://picsum.photos/seed/testi5/600/400"
+    },
+
+    {
+        "id": 6, 
+        "name": "Carlos Vega", 
+        "date": "2025-02-11", 
+        "text": "Writing down small goals helped me achieve them and manage my time better.",
+        "photo_url": "https://picsum.photos/seed/testi6/600/400"
+    },
+
+    {
+        "id": 7, 
+        "name": "Ana Ruiz", 
+        "date": "2024-12-30", 
+        "text": "My anxiety levels dropped when I saw my progress in writing.",
+        "photo_url": "https://picsum.photos/seed/testi7/600/400"
+    },
+
+    {
+        "id": 8, 
+        "name": "Federico Silva", 
+        "date": "2024-11-14", 
+        "text": "I recommend this journal to students: it improves self-assessment.",
+        "photo_url": "https://picsum.photos/seed/testi8/600/400"
+    },
+
+    {
+        "id": 9, 
+        "name": "Valentina Ortiz", 
+        "date": "2024-10-05", 
+        "text": "Writing before bed helped me release repetitive thoughts and sleep better.",
+        "photo_url": "https://picsum.photos/seed/testi9/600/400"
+    },
+
+    {
+        "id": 10, 
+        "name": "Mateo Díaz", 
+        "date": "2024-09-22", 
+        "text": "Putting mistakes into writing allowed me to turn them into useful lessons.",
+        "photo_url": "https://picsum.photos/seed/testi10/600/400"
+    },
+
+    {
+        "id": 11, 
+        "name": "Camila Torres", 
+        "date": "2024-08-13", 
+        "text": "Five minutes of journaling reduced my creative blocks.",
+        "photo_url": "https://picsum.photos/seed/testi11/600/400"
+    },
+
+    {
+        "id": 12, 
+        "name": "Nicolás Fuentes", 
+        "date": "2024-07-01", 
+        "text": "I improved my emotional communication by practicing reflective writing.",
+        "photo_url": "https://picsum.photos/seed/testi12/600/400"
+    },
+
+    {
+        "id": 13, 
+        "name": "Isabela Rojas", 
+        "date": "2024-06-09", 
+        "text": "The gratitude and goals template gave my mornings a sense of purpose.",
+        "photo_url": "https://picsum.photos/seed/testi13/600/400"
+    },
+
+    {
+        "id": 14, 
+        "name": "Tomás Herrera", 
+        "date": "2024-05-18", 
+        "text": "The journal gave me structure and small daily victories.",
+        "photo_url": "https://picsum.photos/seed/testi14/600/400"
+    },
+
+    {
+        "id": 15, 
+        "name": "Florencia Méndez", 
+        "date": "2024-04-02", 
+        "text": "Reading old entries and seeing how much I’ve changed was exciting.",
+        "photo_url": "https://picsum.photos/seed/testi15/600/400"
+    }
+]

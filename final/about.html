@@ -7,7 +7,7 @@
     <meta name="author" content="Mia Soria">
     <title>My Spiritual Journal | Personal Project</title>
     <link rel="stylesheet" href="styles/about.css">
-    <script src="scripts/index.js" defer></script>
+    <script src="scripts/about.js" defer></script>
     <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
@@ -64,6 +64,25 @@
         <span>— Habakkuk 2:2</span>
       </blockquote>
     </section>
+
+    <section id="about-testimonials" class="about-testimonials">
+        <h2>Testimonies</h2>
+        <p class="lead">Stories from people who used the journal.</p>
+        
+        <div id="testimonialsGrid" class="testimonials-grid" aria-live="polite">
+
+        </div>
+    </section>
+
+    <dialog id="testi-dialog" aria-labelledby="testi-title">
+    <div class="dialog-inner">
+        <button class="dialog-close" aria-label="Close dialog">✕</button>
+
+        <h2 id="testi-title"></h2>
+        <p id="testi-date" class="dialog-date"></p>
+        <div id="testi-text" class="dialog-text"></div>
+    </div>
+    </dialog>
   </main>
     <footer>
         <p>© <span id="currentyear"></span> Spiritual Journey | Mia Soria</p>
