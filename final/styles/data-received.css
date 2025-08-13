@@ -1,0 +1,85 @@
+:root {
+  --primary-color:   #4A6B8A;
+  --secondary-color: #8FB2BF;
+  --color-accent:    #D9B38B;
+  --color-bg:        #F5F5DC;
+  --color-text:      #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header img{
+    height: 5rem;
+}
+
+nav ul {
+    flex-direction: column;
+    list-style: none;
+    gap: 0.5rem;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+a:hover{
+    background-color: #22394e;
+}
+
+#menuButton {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: black;
+  cursor: pointer;
+  display: block;
+}
+
+#navMenu {
+  display: none;
+  flex-direction: column;
+}
+
+#navMenu.open {
+  display: flex;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  font-family: 'Open Sans', sans-serif;
+}
