@@ -6,21 +6,18 @@ function escapeHtml(str = '') {
 
 async function fetchTestimonials(url = 'data/testimonials.json') {
   try {
-    console.log('fetching', url);
     const res = await fetch(url);
     if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
     const json = await res.json();
     if (!Array.isArray(json)) throw new Error('JSON no es array');
     return json.slice(0, 15);
   } catch (err) {
-    console.error('fetchTestimonials error:', err);
     return [];
   }
 }
 
 function renderGrid(container, items) {
   if (!container) {
-    console.warn('RenderGrid: container not found');
     return;
   }
   if (!items.length) {
@@ -43,13 +40,13 @@ function renderGrid(container, items) {
         <button class="btn-read" data-id="${it.id}" aria-controls="testi-dialog">Read testimony</button>
       </div>
     </article>
-  `}).join('');
+  `;
+  }).join('');
 }
 
 function createDialogController(dialogSelector = '#testi-dialog') {
   const dialog = document.querySelector(dialogSelector);
   if (!dialog) {
-    console.warn('Dialog not found:', dialogSelector);
     return { open: () => {}, close: () => {} };
   }
 
@@ -122,7 +119,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   const dialogCtrl = createDialogController('#testi-dialog');
 
   const items = await fetchTestimonials('data/testimonials.json');
-  console.log('uploaded testimonials:', items.length);
   renderGrid(grid, items);
 
   if (!grid) return;
@@ -148,4 +144,4 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 });
 
-  document.getElementById("currentyear").textContent = new Date().getFullYear();
+document.getElementById("currentyear").textContent = new Date().getFullYear();

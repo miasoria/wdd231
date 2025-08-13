@@ -75,7 +75,6 @@ a:hover{
 
 .hero {
     position: relative;
-    max-width: auto;
     height: 50rem;
     background-image: url(../images/heroimg.jpg);
     background-size: contain;
@@ -104,7 +103,7 @@ a:hover{
     padding:5rem;
     background-color: var(--color-accent);
     border-radius: 10px;
-    box-shadow: solid #333333;
+    box-shadow: #333333;
     max-width: 1000px;
     margin: 5rem;
     gap:5rem;
