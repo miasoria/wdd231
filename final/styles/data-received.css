@@ -83,3 +83,23 @@ footer {
   font-size: 0.9rem;
   font-family: 'Open Sans', sans-serif;
 }
+
+@media (min-width: 768px) {
+    #navMenu {
+    display: block !important;
+  }
+
+  #menuButton {
+    display: none;
+  }
+
+  nav ul {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
+    background-color: transparent;
+    width: auto;
+    padding: 0;
+  }
+}
