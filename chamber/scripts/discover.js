@@ -1,6 +1,8 @@
   document.getElementById("currentyear").textContent = new Date().getFullYear();
   document.getElementById("lastModified").textContent = document.lastModified;
 
+fetch('data/discover.json').then(r => console.log(r.status, r.url));
+
 const DATA_PATH = 'data/discover.json';
 const visitorEl = document.getElementById('visitorMessage');
 

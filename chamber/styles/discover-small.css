@@ -28,9 +28,6 @@ header img {
     width:auto;
 }
 
-#navMenu {
-  display: none;
-}
 
 #navMenu.open {
   display: block;
@@ -74,11 +71,6 @@ a:hover{
   color: black;
   cursor: pointer;
   display: block;
-}
-
-#navMenu {
-  display: none;
-  flex-direction: column;
 }
 
 #navMenu.open {
@@ -143,15 +135,14 @@ a:hover{
   .discover-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-      "card1 "
-      "card2"
+      "visitor visitor"
+      "card1 card2"
       "card3 card4"
       "card5 card6"
       "card7 card8";
-    gap: 1rem;
   }
-  .card img { height: 200px; } /* aumentar un poco la imagen */
 }
+
 
 footer {
   display: flex;

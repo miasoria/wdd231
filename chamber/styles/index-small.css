@@ -76,13 +76,9 @@ a:hover{
   display: block;
 }
 
-#navMenu {
-  display: none;
-  flex-direction: column;
-}
-
 #navMenu.open {
   display: flex;
+  flex-direction: column;
 }
 
 .hero {
